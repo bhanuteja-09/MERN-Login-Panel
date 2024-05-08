@@ -21,7 +21,7 @@ router.post('/api/login', async (req, res) => {
     // Login successful
     res.json({ message: 'Login successful', user });
   } catch (error) {
-    // console.error('Login error:', error);
+    console.error('Login error:', error);
     res.status(500).json({ message: 'Internal server error' });
   }
 });
