@@ -23,7 +23,7 @@ const Login = () => {
     <div className="login-page">
       <div className="login-container">
         <div className="header">
-          {/* <h2>Login Page</h2> */}
+          <h2>Login Page</h2>
         </div>
         <div className="form-wrapper">
           <form onSubmit={handleSubmit}>
